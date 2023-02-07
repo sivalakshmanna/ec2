@@ -5,7 +5,7 @@ resource "aws_instance" "prod" {
   ami           = "ami-0cca134ec43cf708f"
   instance_type = "t2.nano"
   count         = 1
-}
-tags {
+  tags {
   Name = "jenkins"
+}
 }
