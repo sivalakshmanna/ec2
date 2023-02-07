@@ -7,5 +7,5 @@ resource "aws_instance" "prod" {
   count         = 1
 }
 tags {
-  Name = "terraform"
+  Name = "jenkins"
 }
