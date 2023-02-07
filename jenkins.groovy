@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/sivalakshmanna/ec2.git'
+                git branch: 'main', url: 'https://github.com/sivalakshmanna/s3.git'
             }
         }
         stage('terraform init') {
